@@ -26,8 +26,6 @@ public class LibraryUser {
         }
         //Number of Days to add
         c.add(Calendar.DAY_OF_MONTH, 15);
-        //Date after adding the days to the given date
-        //Displaying the new Date after addition of Days
         return sdf.format(c.getTime());
     }
 
